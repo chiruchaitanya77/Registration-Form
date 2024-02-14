@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form
+    {
+        text-align:left;
+        width: 250px;
+        background-color: mediumseagreen;
+        padding: 40px;
+        margin-left:100px;
+    }
+</style>
+<body>
+    <form action="https://formspree.io/f/myyreoob" method="post">
+        <h2>Registration Form</h2>
+        <labelfor="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required></input><br><br>
+        <label for="email">Email :</label>
+        <input type="email" name="name" id="email" placeholder="Enter your email id"required></input><br><br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password"required></input><br><br>
+        <label for="ph">Phone number :</label>
+        <input type="tell" name="ph" id="ph" placeholder="Enter your mobile number"required></input><br><br>
+        <label for="gender">Gender :</label><br>
+        <select placeholder="select">
+            <option>male</option>
+            <option>Female</option>
+        </select><br><br>
+        <label for="lang">Language :</label>
+        <input type="text" name="lang" id="lang" required></input><br><br>
+        <label for="zip">Zip Code :</label>
+        <input type="text" name="zip" id="zip" required></input><br><br>
+        <label for="address">Address :</label><br>
+        <textarea rows="7" cols="25"></textarea><br><br>
+        <input type="file" name="file" id="file"></input><br><br>
+        <input type="submit" name="submit" id="submit"></input>
+        <input type="reset" name="reset" id="reset"></input>
+    </form>
+</body>
+</html>
